@@ -1,0 +1,8 @@
+dcc.Dropdown(options=[{'label': 'All Sites', 'value': 'ALL'},
+	{'label': 'CCAFS-LC40', 'value': 'CCAFS-LC40'},
+	{'label': 'CCAFS-SLC40', 'value': 'CCAFS-SLC40'},
+	{'label': 'KSC LC-39A', 'value': 'KSC LC-39A'},
+	{'label': 'VAFB SLC-4E', 'value': 'VAFB SLC-4E'}],
+		value='ALL',
+		placeholder="Select a launch site here",
+		searchable=True),
